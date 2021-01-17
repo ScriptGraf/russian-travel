@@ -1,0 +1,17 @@
+/* установили стили картинки для Desktop 1028, 1024, 768, 320 */
+.cover__overlay {
+  background: #2A2C2F;
+  box-sizing: border-box;
+  opacity: 0.6;
+  object-fit: cover;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+/* наведение мышкой на прозрачную ссылку */
+.cover__overlay:hover {
+  opacity: 0.3;
+}

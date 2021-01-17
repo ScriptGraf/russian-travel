@@ -1,0 +1,18 @@
+/* установили модификатор с ключом для Desktop 1280 */
+.place__paragraph_margin_top {
+  margin: 26px 0 0 0;
+}
+
+/* установили стили модификатора с ключом для iPad */
+@media screen and (max-width: 768px) and (max-height: 1024px) {
+  .place__paragraph_margin_top {
+    margin: 25px 0 0 0;
+  }
+}
+
+/* установили стили модификатора с ключом для iphone 5/SE */
+@media screen and (max-width: 320px) and (max-height: 568px) {
+  .place__paragraph_margin_top {
+    margin: 25px 0 0 0;
+  }
+}

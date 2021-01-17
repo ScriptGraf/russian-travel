@@ -1,0 +1,39 @@
+/* Блок фото грид для Desktop 1280 */
+.photo-grid {
+  margin: 92px auto 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 16px 16px;
+  max-width: 1184px;
+}
+
+/* установили стили фото грида для Laptop */
+@media screen and (max-width: 1024px) and (max-height: 1366px) {
+  .photo-grid {
+    margin: 92px auto 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    max-width: 928px;
+  }
+}
+
+/* установили стили фото грида для iPad */
+@media screen and (max-width: 768px) and (max-height: 1024px) {
+  .photo-grid {
+    margin: 88px auto 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    max-width: 720px;
+  }
+}
+
+/* установили стили фото грида для iphone 5/SE */
+@media screen and (max-width: 320px) and (max-height: 568px) {
+  .photo-grid {
+    margin: 64px auto 0 auto;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    max-width: 288px;
+  }
+}
