@@ -5,9 +5,8 @@
   margin: 0;
   font-weight: normal;
   display: grid;
-  grid-column: 2 / 3; 
+  grid-column: 2 / 3;
   grid-row: 2 / 3;
-
 }
 
 /* установили стили параграфа для iPad */
@@ -30,6 +29,3 @@
     padding: 0 16px 0 16px;
   }
 }
-
-
-
