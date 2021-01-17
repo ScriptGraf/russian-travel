@@ -9,7 +9,7 @@
 }
 
 /* установили стили Байкала для Laptop */
-@media screen and (max-width: 1024px) and (max-height: 1366px) {
+@media screen and (max-width: 1024px) {
   .cover {
     max-width: 1024px;
     min-height: 640px;
@@ -18,7 +18,7 @@
 }
 
 /* установили стили Байкала для iPad */
-@media screen and (max-width: 768px) and (max-height: 1024px) {
+@media screen and (max-width: 768px) {
   .cover {
     max-width: 768px;
     min-height: 480px;
@@ -27,7 +27,7 @@
 }
 
 /* установили стили Байкала для iphone 5/SE */
-@media screen and (max-width: 320px) and (max-height: 568px) {
+@media screen and (max-width: 320px) {
   .cover {
     max-width: 320px;
     min-height: 200px;

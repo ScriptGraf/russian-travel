@@ -8,7 +8,7 @@ iPad 768 и iphone 5/SE 320.
 
 **Проект**
 
-* [Ссылка на russian-travel](https://github.com/ScriptGraf/russian-travel/)
+* [Ссылка на russian-travel](https://scriptgraf.github.io/russian-travel/.)
 
 
 
