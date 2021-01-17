@@ -1,6 +1,6 @@
 /* Блок шапка для Desktop 1280 */
 .header {
-  max-width: 1184px;;
+  max-width: 1184px;
   margin: 28px 48px 0 48px;
   display: grid;
   grid-template: 52px / 1fr minmax(auto, 30px) minmax(auto, 30px);
